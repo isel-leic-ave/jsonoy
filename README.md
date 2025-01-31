@@ -33,3 +33,6 @@ The `membersToJson` function must be recursive.
 - Members can also be annotated with `ToJsonFormatter`, which specifies a class
   implementing a function `(Any) -> String`. This function provides an
   alternative JSON representation of the member's value, processing it.
+
+Your implementation should pass both `testClassroomMembersToJson()`  and
+`testPersonMembersToJson()` tests.
