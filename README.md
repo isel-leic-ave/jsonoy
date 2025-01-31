@@ -26,7 +26,7 @@ Your implementation should pass both `testAddressFieldsToJson()` and
 Implement the extension function `membersToJson` (in `MembersToJson.kt`) using
 the Kotlin Reflection API.  
 This function encodes properties and non-void parameterless functions.  
-The `toJson` function must be recursive.
+The `membersToJson` function must be recursive.
 
 - Members can be annotated with `ToJsonPropName` to replace the member's name
   with the specified JSON property name.
