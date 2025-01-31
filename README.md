@@ -4,14 +4,14 @@ JSON Encoder through Reflection API.
 
 ## DEADLINES
 
-1. **DEADLINE: **03-03-2025**
-1. **DEADLINE: **10-03-2025**
+1. **03-03-2025**
+1. **10-03-2025**
 
 ***
 
 Use this project as the template for your implementation of a JSON Encoder.
 
-## 1 `fieldsToJson` 
+## 1. `fieldsToJson` 
 
 Implement the extension function `fieldsToJson` (in `FieldsToJson.kt`), which
 converts the declared fields of a given object to JSON. This function should use
@@ -21,7 +21,7 @@ types.
 Your implementation should pass both `testAddressFieldsToJson()` and
 `testClassroomFieldsToJson()` tests.
 
-## 2
+## 2. `membersToJson`
 
 Implement the extension function `membersToJson` (in `MembersToJson.kt`) using
 the Kotlin Reflection API. The `toJson` function must be recursive.
