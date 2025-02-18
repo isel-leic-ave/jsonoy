@@ -51,3 +51,5 @@ according to the following design:
    two associations, with one having a multiple multiplicity relationship.
    You may use any AI tool, such as Copilot, ChatGPT, or others, to assist you
    in implementing these unit tests and the domain model.
+
+   You must include your chosen domain here: https://github.com/isel-leic-ave/jsonoy/wiki/Student-Domain-Selections
