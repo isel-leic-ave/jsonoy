@@ -11,7 +11,7 @@ import java.time.temporal.ChronoUnit
 
 val personDateFormatter = SimpleDateFormat("dd-MM-yyyy")
 
-object DateFormatter : ToJsonValueFormatter {
+class DateFormatter : ToJsonValueFormatter {
     override fun format(value: Any): String = personDateFormatter.format(java.util.Date(value as Long))
 }
 
